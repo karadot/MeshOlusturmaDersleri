@@ -15,6 +15,8 @@ public class SekillendirilebilirMesh : MonoBehaviour {
     public int kareSayisi;
 
     void Start () {
+        mesh = GetComponent<MeshFilter> ().mesh;
+        meshCollider = GetComponent<MeshCollider> ();
         PlaneVerisiOlustur ();
         MeshOlustur ();
     }
