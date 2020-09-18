@@ -171,7 +171,7 @@ public class SekillendirilebilirMesh : MonoBehaviour {
         Yani kaç kare kullanacaksak bunun için 6 adet de
         vertex değerini triangles dizisinde tutacağız.
         Bu yüzden toplam kare sayımızı 6 ile çarpıyoruz.
-        
+        */
         triangles = new int[kareSayisi * kareSayisi * 6];
         
         /*
